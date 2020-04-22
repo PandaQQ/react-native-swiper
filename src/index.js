@@ -278,7 +278,7 @@ export default class extends Component {
     }
 
     const width  =  Dimensions.get('window').width;
-    const height = Platform.OS === 'android' ? Dimensions.get('screen').height : Dimensions.get('screen').height - (isIPhoneX?78:0);
+    const height = Platform.OS === 'android' ? Dimensions.get('screen').height : Dimensions.get('screen').height - (isIPhoneX?78:20);
 
     // ------------------------------------------------------------------
 
